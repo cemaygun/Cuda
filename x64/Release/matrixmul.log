@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  c:\Users\Cem\documents\visual studio 2015\Projects\matrixmul\matrixmul>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc140.pdb /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "c:\Users\Cem\documents\visual studio 2015\Projects\matrixmul\matrixmul\kernel.cu" 
+c:/Users/Cem/documents/visual studio 2015/Projects/matrixmul/matrixmul/kernel.cu(51): warning : variable "sum_p" was declared but never referenced
+c:/Users/Cem/documents/visual studio 2015/Projects/matrixmul/matrixmul/kernel.cu(61): warning : variable "cpu_time_used" was declared but never referenced
+  kernel.cu
+c:/Users/Cem/documents/visual studio 2015/Projects/matrixmul/matrixmul/kernel.cu(61): warning C4101: 'cpu_time_used': unreferenced local variable
+     Creating library c:\users\cem\documents\visual studio 2015\Projects\matrixmul\x64\Release\matrixmul.lib and object c:\users\cem\documents\visual studio 2015\Projects\matrixmul\x64\Release\matrixmul.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  matrixmul.vcxproj -> c:\users\cem\documents\visual studio 2015\Projects\matrixmul\x64\Release\matrixmul.exe
+  matrixmul.vcxproj -> c:\users\cem\documents\visual studio 2015\Projects\matrixmul\x64\Release\matrixmul.pdb (Full PDB)
